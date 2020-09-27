@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+
+    <title> Study Journal </title>
+    <link rel="stylesheet" href="bookLists.style.css">
+
+</head>
+
+<body>
+
+    <div>
+        <h1>本棚</h1>
+
+        <table>
+            <tr>
+                <th>分類</th>
+                <th>私たちが読む理由</th>
+            </tr>
+            <tr>
+                <td>哲学</td>
+                <td>大学で学んだことを忘れないため</td>
+                <td><a href="./philoBook.html" class="btn-square-pop">BUTTON</a></td>
+            </tr>
+            <tr>
+                <td>情報技術</td>
+                <td>より良い仕事ができるようになるため</td>
+                <td><a href="./codeBook.html" class="btn-square-pop">BUTTON</a></td>
+            </tr>
+            <tr>
+                <td>文学</td>
+                <td>いろいろな別れを経験するため</td>
+                <td><a href="./litBook.html" class="btn-square-pop">BUTTON</a></td>
+            </tr>
+
+        </table>
+
+        <p>Player 1: Chris</p>
+        <!-- <script>
+            // const para = document.querySelector('p');
+
+            // para.addEventListener('click', updateName);
+
+            // function updateName() {
+            //     let name = prompt('名前を入力して下さい');
+            //     para.textContent = 'Player 1: ' + name;
+
+            //     if (name == null) {
+            //         let name = prompt("名無しはダメ");
+
+            //     }
+            // }
+
+          
+        </script> -->
+
+        <button>Click me</button>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                function createParagraph() {
+                    let para = document.createElement('p');
+                    para.textContent = 'ボタンが押されました!';
+                    document.body.appendChild(para);
+                }
+
+                const buttons = document.querySelectorAll('button');
+
+                for (let i = 0; i < buttons.length; i++) {
+                    buttons[i].addEventListener('click', createParagraph);
+                }
+            });
+        </script>
+    </div>
+
+</body>
+
+</html>

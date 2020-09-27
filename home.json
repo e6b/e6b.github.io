@@ -1,0 +1,24 @@
+{
+    "category": "C#",
+    "startDate": "20190901",
+    "topics": [
+        {
+            "topic": "Dictionary",
+            "startdate": 201912,
+            "powers": [
+                "Radiation resistance",
+                "Turning tiny",
+                "Radiation blast"
+            ]
+        },
+        {
+            "topic": "LINQ",
+            "startdate": 201912,
+            "powers": [
+                "Million tonne punch",
+                "Damage resistance",
+                "Superhuman reflexes"
+            ]
+        }
+    ]
+}
