@@ -33,3 +33,50 @@ table th {/*table内のthに対して*/
     border-bottom: solid 2px #fd9535;
     box-shadow: 0 0 2rgba(0, 0, 0, 0.30);
   }
+
+  ul {
+    padding: 0;
+  }
+  
+  ul li {
+    color: black;
+    position:relative;
+    background: #f1f8ff;/*バーの色*/
+    line-height: 1.5;
+    padding: 0.5em;
+    margin-bottom: 4px;
+    border-left : solid 35px #5c9ee7;/*先の色＝アイコン裏の色*/
+    list-style-type: none!important;
+  }
+  
+  ul li:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f303";
+    position: absolute;
+    display: block;
+    padding: 0.5em;
+    width: 1.2em;
+    color: white; /*アイコン色*/
+    font-weight: normal;/*アイコンは太字にしない*/
+    text-align: center;
+    left : -35px; /*左端からのアイコンまでの距離*/
+    /*以下 上下中央寄せのため*/
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+
+  h1 {
+    border-bottom: solid 3px skyblue;
+    position: relative;
+  }
+  
+  h1:after {
+    position: absolute;
+    content: " ";
+    display: block;
+    border-bottom: solid 3px #ffc778;
+    bottom: -3px;
+    width: 30%;
+  }
+  

@@ -10,21 +10,21 @@ let elementP70 = React.createElement(
     ),
     React.createElement('h2', {}, 'MY READING LISTS'),
     React.createElement(
-        'h3', {}, "Hope you enjoy the journey with me.Don/'t stop believing:)"
-    ),
-    React.createElement(
-        'ul', {}, [
-        React.createElement(
-            'li', {}, "1st"
-        ),
-        React.createElement(
-            'li', {}, "2nd"
-        ),
-        React.createElement(
-            'li', {}, "3rd"
-        )
-    ]
-    )
+        'h3', {}, "Hope you enjoy the journey with me:)"
+    )// ),
+    // // React.createElement(
+    //     'ul', {}, [
+    //     React.createElement(
+    //         'li', {}, "1st"
+    //     ),
+    //     React.createElement(
+    //         'li', {}, "2nd"
+    //     ),
+    //     React.createElement(
+    //         'li', {}, "3rd"
+    //     )
+    // ]
+    // )
 ]
 )
 
