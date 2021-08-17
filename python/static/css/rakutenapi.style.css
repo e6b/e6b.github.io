@@ -1,0 +1,56 @@
+html {
+  font-family: Helvetica , "游ゴシック", sans-serif;
+  line-height: 1.25;
+}
+
+table {
+  border-collapse: collapse;
+  margin: 0 auto;
+  padding: 0;
+  width: 1200px;
+      box-shadow: 0 0 15px -6px #00000073;
+}
+table tr {
+  background-color: #fff;
+}
+table tbody tr:hover{
+  background-color: #fffae9;
+}
+table th,
+table td {
+ 
+  padding: .35em 1em;
+  border-bottom: 1px solid #eee;
+}
+table thead th {
+    font-size: .85em;
+    padding: 1em;
+}
+table thead tr{
+  text-align: left;
+  background-color: #FFC107;
+  color:#fff;
+}
+table tbody th {
+  text-align: left;
+  font-size: .8em;
+}
+.txt{
+   text-align: left;
+   font-size: .75em;
+}
+
+h1 {
+  border-bottom: solid 3px skyblue;
+  position: relative;
+}
+
+h1:after {
+  position: absolute;
+  content: " ";
+  display: block;
+  border-bottom: solid 3px #ffc778;
+  bottom: -3px;
+  width: 30%;
+}
+
